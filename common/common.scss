@@ -3,7 +3,9 @@
 @mixin box-shadow($value: 8px) {
   box-shadow: 0 1px $value rgba(black, 0.18);
 }
-
+body {
+  font-family: "Red Hat Text", sans-serif;
+}
 .background-container {
   position: fixed;
   top: 0;
